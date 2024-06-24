@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "plugins": ["import"],
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".mjs", ".ts", ".cjs"],
+        "paths": ["src"]
+      }
+    }
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": "off",
+    "camelcase": ["error", {"allow": ["user_type", "cash_in", "cash_out", "week_limit", "user_id"]}],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "always",
+        "mjs": "always"
+      }
+    ]
+  }
+}
