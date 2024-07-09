@@ -3,6 +3,6 @@ export const ONE_HUNDRED = 100;
 export const ZERO = 0;
 
 export const CURRENCY = {
-    EUR: 'EUR'
+    EUR: 'EUR',
     USD: 'USD'
 };
