@@ -2,7 +2,7 @@
 
 const config = {
     testEnvironment: 'node',
-    // verbose: true,
+    verbose: true,
     coverageDirectory: 'coverage',
     collectCoverage: true,
     transform: {
