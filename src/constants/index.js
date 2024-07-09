@@ -4,4 +4,5 @@ export const ZERO = 0;
 
 export const CURRENCY = {
     EUR: 'EUR'
+    USD: 'USD'
 };
